@@ -22,4 +22,12 @@ x = [...fruits, ...berries]
 const arr = [1, 2, [3, 4], 5, [6, 7]]
 x = arr.flat()
 
-console.log(arr);
+x = Array.from("12345")
+
+const a = 1
+const b = 2
+const c = 3
+
+x = Array.of(a, b, c)
+
+console.log(x);
